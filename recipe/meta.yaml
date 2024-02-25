@@ -23,6 +23,7 @@ requirements:
     - python >=3.8
     - django >=4.2
     - wagtail >=4.2
+    - django-filter >=23.2
 
 test:
   commands:
