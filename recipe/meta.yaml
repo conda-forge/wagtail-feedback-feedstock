@@ -1,5 +1,5 @@
 {% set name = "wagtail-feedback" %}
-{% set version = "1.1.6" %}
+{% set version = "1.2.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail_feedback-{{ version }}.tar.gz
-  sha256: 73715c97cca2660443a7fd264e01e75b1fb772662c67e10487513e576c444e26
+  sha256: d3ba2d191f57ea4db939e26d7ffe51fd296414363543d94b2ad4342fe976834b
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - python >=3.8
     - django >=4.2
     - wagtail >=4.2
+    - django-filter >=23.2
 
 test:
   commands:
