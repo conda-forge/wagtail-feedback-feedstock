@@ -1,5 +1,5 @@
 {% set name = "wagtail-feedback" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail_feedback-{{ version }}.tar.gz
-  sha256: 8b05ea111013ac37848bf866639ec21681994387dc4ef7e0b18f6f5f5acb6f99
+  sha256: 780d2b5166a08ce635463d79c210069dccee30a08d06fb79330c2a1b3a86d785
 
 build:
   noarch: python
